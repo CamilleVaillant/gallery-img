@@ -1,0 +1,45 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+ 
+  #mainImage {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 3px solid #ddd;
+    transition: opacity 0.3s;
+  }
+  
+  
+  .thumbnail-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+ 
+  .thumbnail {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  
+  
+  .thumbnail:hover {
+    transform: scale(1.1);
+    border-color: #aaa;
+  }
+  
